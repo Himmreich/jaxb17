@@ -12,7 +12,7 @@
     <artifactId>jaxb11</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jaxb11</name>
-    <description>jaxb11/description>
+    <description>jaxb11</description>
     <properties>
         <java.version>11</java.version>
     </properties>
