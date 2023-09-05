@@ -4,6 +4,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    ignore:
+      - dependecy-name: "org.springframework.boot:spring-boot-starter-parent"
+        versions: [">=3.0.0]
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
