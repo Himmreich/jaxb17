@@ -64,6 +64,14 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxb2-maven-plugin</artifactId>
                 <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>xjc</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <sources>
                         <source>src/main/resources/2021-03-04_lei-cdf-v3-1.xsd</source>
